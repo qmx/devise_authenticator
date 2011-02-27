@@ -8,13 +8,13 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Douglas Campos"]
   s.email       = ["qmx@qmx.me"]
-  s.homepage    = ""
+  s.homepage    = "http://blog.qmx.me"
   s.summary     = %q{mimics devise's default hashing strategy}
   s.description = %q{helps to authenticate against a default devise database}
 
   s.rubyforge_project = "devise_authenticator"
 
-  s.add_development_dependency "bcrypt-ruby"
+  s.add_dependency "bcrypt-ruby"
   s.add_development_dependency "rspec"
 
   s.files         = `git ls-files`.split("\n")
