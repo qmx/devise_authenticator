@@ -1,0 +1,3 @@
+module DeviseAuthenticator
+  # Your code goes here...
+end
