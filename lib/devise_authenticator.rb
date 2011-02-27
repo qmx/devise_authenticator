@@ -1,3 +1,3 @@
+require 'devise_authenticator/manager'
 module DeviseAuthenticator
-  # Your code goes here...
 end
