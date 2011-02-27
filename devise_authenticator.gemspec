@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
   s.name        = "devise_authenticator"
   s.version     = DeviseAuthenticator::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
+  s.authors     = ["Douglas Campos"]
+  s.email       = ["qmx@qmx.me"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{mimics devise's default hashing strategy}
+  s.description = %q{helps to authenticate against a default devise database}
 
   s.rubyforge_project = "devise_authenticator"
 
